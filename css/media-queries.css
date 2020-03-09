@@ -102,6 +102,11 @@ footer {
         width: 20%;
         clear: right;
     }
+    footer {
+        float: left;
+        margin-top: 300px;
+        margin-left: 150px;
+    }
 }
 
 
