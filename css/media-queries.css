@@ -20,7 +20,7 @@ h1 {
     text-align: center;
     padding-bottom: 10px;
 }
-.nav-links{
+.nav-links li{
     /*display: grid;*/
     text-align: center;
     list-style: none;
@@ -56,6 +56,29 @@ footer {
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width:992px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin-top: 2em;
+    }
+    body h1 {
+        margin: 0 84px 0 195px;
+        float: left;
+    }
+    body nav {
+        float: left;
+    }
+    body .nav-links {
+        margin-top: 1em;
+        font-size: small;
+        margin-left: 300px;
+    }
+    body .nav-links li {
+        display: inline;
+        border: none;
+        background-color: white;
+    }
     body .hidden-on-desktop {
     display: none;
 }
@@ -63,8 +86,9 @@ footer {
         text-align: left;
     }
     .header-img img {
-        width: 900px;
-        height: 400px;
+        margin: 30px auto 0 200px;
+        width: 890px;
+        height: 385px;
     }
 }
 
