@@ -90,6 +90,18 @@ footer {
         width: 890px;
         height: 385px;
     }
+    #main {
+        margin-top: 30px;
+        margin-left: 200px;
+        float: left;
+        width: 45%;
+    }
+    .sub-section {
+        margin-right: 250px;
+        float: right;
+        width: 20%;
+        clear: right;
+    }
 }
 
 
