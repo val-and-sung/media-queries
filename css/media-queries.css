@@ -68,7 +68,6 @@ footer {
         float: right;
     }
     body .nav-links {
-        /*font-size: small;*/
         margin-right: 20px;
     }
     body .nav-links li {
@@ -80,19 +79,19 @@ footer {
     display: none;
 }
     .header-img img {
+        clear: both;
         margin-top: 30px;
         width: 100%;
         height: 385px;
     }
     .header-img {
-        width: calc(100% - 2em);
+        width: 100%;
     }
     #main {
         float: left;
         width: calc(70% - 4em);
     }
     .sub-section {
-        /*margin-right: 250px;*/
         float: right;
         width: calc(30% - 4em);
     }
